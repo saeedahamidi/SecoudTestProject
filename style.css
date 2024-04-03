@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(134, 236, 202);
+}
+ 
+.tangerine-bold {
+   font-family: "Tangerine", cursive;
+   font-weight: 800;
+   font-style: normal;
+   font-size: 30px;
+ }
+ #tangerine-bold {
+   font-family: "Tangerine", cursive;
+   font-weight: 800;
+   font-style: normal;
+   font-size: 30px;
+ }
+.container{
+    background-color: aqua;
+    display: flex;
+}
+#heading1{
+    color:rgb(19, 19, 49);
+}
+div ul li{
+    display: flex;
+    float: left;
+    padding: 10px;
+    padding-bottom: 0;
+    }
+ ul li a{
+    text-decoration: none;
+    color: rgb(19, 19, 49);
+    padding-bottom: 0;
+ }   
+ .container nav ul li a :hover,nav ul li a :focus{
+   background-color: brown;
+ }
+ .zero{
+    display: flex;
+   justify-content: center;
+ }
+ #heading2{
+    color:rgb(19, 19, 49);
+ }
+ .container1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+ }
+ .item{
+   border: px solid rgb(3, 253, 212);
+ }
+ .perfume{
+   display: flex;
+   width: 1010px;
+   height: 400px;
+   border-radius: 5px;
+ }
+ .p{
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
+   color: red;
+   opacity: 0%;
+ }
+.item :hover .p{
+   opacity: 100%;
+ }
+ .item:hover{
+   transform: scale(1.1);
+   filter: invert(0.1);
+   }
+   .one{
+      display: flex;
+      justify-content: center;
+      
+   }
+   #heading3{
+      color: rgb(19, 19, 49);;
+   
+   }
+   .container2{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+
+   }
+   .item1{
+      border: 3px solid rgb(3, 253, 212);
+      background-color: rgb(248, 250, 249);
+      border-radius: 5px;
+      
+   }
+   .images{
+      display: flex;
+      width: 190px;
+      height: 150px;
+   }
+   .p1{
+      text-align: center;
+      color:rgb(19, 19, 49);
+   }
+   .btn{
+      width: 190px;
+      background-color: aqua;
+      color:rgb(19, 19, 49);
+      border: 3px solid aqua;
+   }
+   .container2 :hover.item1{
+      transform: skew(1deg,5deg);
+   }
+   .container3{
+      display: flex;
+      height: 600px;
+      align-items: center;
+      flex-direction: column;
+      
+   }
+   .item2{
+      border: 3px solid rgb(3, 253, 212);
+      background-color: rgb(250, 249, 248);
+      border-radius: 5px;
+   }
+   .images1{
+      display: flex;
+      width: 1010px;
+      height: 200px;
+   }
+   .p2{
+      text-align: center;
+      color:rgb(19, 19, 49);
+      margin-bottom: 0px;
+      margin: 0px;
+   
+   }
+   .btn1{
+      width: 100%;
+      background-color: aqua;
+      color:rgb(19, 19, 49);
+      border: 3px solid aqua;
+   }
+   #heading4{
+      color:rgb(19, 19, 49);
+      text-align: center;
+   }
+   .tow{
+      display: flex;
+   }
+   .container3 :hover.item2{
+      transform: skew(0deg,5deg);
+   }
+   .container4{
+      display: flex;
+      justify-content: center;
+   }
+   .item3{
+      border: 4px solid rgb(3, 253, 211);
+      background-color: rgb(250, 249, 248);
+      border-radius: 5px;
+
+   }
+   .container4 :hover.item3{
+      transform: rotate(10deg);
+   }
+   .images2{
+      display: flex;
+      width: 1010px;
+      height: 400px;
+      border-radius: 5px;
+   }
+.p3{
+   text-align: center;
+   color:rgb(19, 19, 49);
+   margin-bottom: 0px;
+   margin: 0px;
+}
+.p4{
+   text-align: center;
+   color:rgb(19, 19, 49);
+}
+.btn2{
+   width: 100%;
+   background-color: aqua;
+   color:rgb(19, 19, 49);
+   border: 3px solid aqua;
+}
+#heading5{
+   color: rgb(19, 19, 49);
+}
+.three{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+.container5{
+   display: flex;
+   justify-content: center;
+   
+}
+.item4{
+   width: 1010px;
+}
+.tbl{
+   display: flex;
+   justify-content: start;
+   color: rgb(19, 19, 49);
+}
+.td{
+   text-align: center;
+   color: rgb(19, 19, 49);
+}
